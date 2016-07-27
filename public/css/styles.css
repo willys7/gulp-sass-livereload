@@ -1,2 +1,86 @@
-body {
-  background: #aaa; }
+.squares {
+  position: relative; }
+
+.square {
+  border: 2px solid black;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  height: 100px;
+  line-height: 100px;
+  position: absolute;
+  text-align: center;
+  transition: 1s;
+  width: 100px; }
+  .square.square-0 {
+    background: red; }
+  .square.square-1 {
+    background: #e60000; }
+  .square.square-2 {
+    background: #cc0000; }
+  .square.square-3 {
+    background: #b30000; }
+  .square.square-4 {
+    background: #990000; }
+  .square.square-5 {
+    background: maroon; }
+  .square.square-6 {
+    background: #660000; }
+  .square.square-7 {
+    background: #4d0000; }
+  .square.square-8 {
+    background: #330000; }
+  .square.square-9 {
+    background: #1a0000; }
+  .square.square-10 {
+    background: black; }
+  .square.square-11 {
+    background: black; }
+  .square.square-12 {
+    background: black; }
+  .square.square-13 {
+    background: black; }
+  .square.square-14 {
+    background: black; }
+  .square.square-15 {
+    background: black; }
+  .square.square-16 {
+    background: black; }
+  .square.square-17 {
+    background: black; }
+  .square.square-18 {
+    background: black; }
+  .square.square-19 {
+    background: black; }
+
+.square.square-1 {
+  left: 0;
+  top: 525px; }
+
+.square.square-2 {
+  left: 75px;
+  top: 450px;
+  z-index: 3; }
+
+.square.square-3 {
+  left: 150px;
+  top: 375px;
+  z-index: 2; }
+
+.square.square-4 {
+  left: 225px;
+  top: 300px;
+  z-index: 0; }
+
+.square.square-5 {
+  left: 300px;
+  top: 225px; }
+
+.square.square-6 {
+  left: 375px;
+  top: 150px;
+  z-index: 2; }
+
+.square.square-7 {
+  left: 450px;
+  top: 75px; }
